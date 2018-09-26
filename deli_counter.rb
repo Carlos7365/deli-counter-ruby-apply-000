@@ -11,19 +11,19 @@ def line(array)
   end
 end
   
-
-def take_a_number(array, name)
-  array.push(name)
-  puts "Welcome, #{name}. You are number #{array.length} in line."
+array = [7, 8, 9]
+def take_a_number(array)
+  array.push(length + 1)
+  puts "Welcome! You are number #{array.push(array[-1])} in line."
+ 
 end
 
 def now_serving(array)
 if array.empty?
   puts "There is nobody waiting to be served!"
 else
-  puts "Currently serving #{array[0]}."
-  array.shift
+  puts "Currently serving #{array.shift}."
 end
 end
-
+take_a_number(katz_deli)
 
